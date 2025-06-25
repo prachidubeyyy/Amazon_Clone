@@ -1,0 +1,51 @@
+.navbarBanner {
+  background-color: #232f3e;
+  padding-left: 11px;
+  display: flex;
+  height: 39px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navbarBannerOptionsLeft {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  overflow-x: auto; 
+}
+
+.optionsNavbarBanner {
+  display: flex;
+  align-items: center;
+  padding: 0 9px;
+  height: 100%;
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.optionsNavbarBanner:hover {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+
+.allOptionsNavbarBanner {
+  padding-left: 4px;
+  font-weight: 500;
+}
+
+.navbarBannerRightSide {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.navbarBannerRightSide:hover {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  cursor: pointer;
+}
